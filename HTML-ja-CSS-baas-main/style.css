@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #fff, #00bfff);
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.hero-buttons a {
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    border: 2px solid #00bfff;
+    color: #00bfff;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 50px;
+    width: 900px;
+    height: 500px;
+}
+
+.destinations {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #00bfff;
+    color: white;
+}
+
+.destinations h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.destination-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    color: black;
+}
+
+.destination-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+}
+
+.partners {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.partner-logos img {
+    width: 150px;
+}
+
+footer {
+    background-color: #00bfff;
+    padding: 50px 0;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links ul,
+.footer-info ul,
+.footer-company ul {
+    list-style: none;
+}
+
+.footer-links ul li,
+.footer-info ul li,
+.footer-company ul li {
+    margin-bottom: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    color: #00bfff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+.logo{
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00AEEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.destination-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: black;
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: scale(1.05);
+}
+
+.destination-image {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.destination-card h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.destination-card p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}

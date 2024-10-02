@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00AEEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.offer-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.offer-card {
+    background-color: #0F2D41;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 250px;
+}
+
+.offer-card:hover {
+    transform: scale(1.05);
+}
+
+.offer-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.offer-details {
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+
+.offer-details h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.offer-details p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #BBB;
+}
+
+.discounted-price {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-button {
+    margin-top: 30px;
+}
+
+.cta-button button {
+    background-color: white;
+    color: #00AEEF;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button button:hover {
+    background-color: #00AEEF;
+    color: white;
+    border: 2px solid white;
+}
